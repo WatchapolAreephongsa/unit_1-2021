@@ -4,7 +4,7 @@
 # Code
 ## For Player To Input Their Name.
 
-'''py
+```py
 name0 = input('Please enter the player name:')
 #User input their name
 confirmation = 0
@@ -16,7 +16,7 @@ while confirmation != name0:
     if confirmation !=name1:
     #If the confirmation is not the same as user's first inputted name the user need to input again until the name is the same for 2 times
         name1 = confirmation
-'''
+```
 # Criteria A: Planning
 
 ## Problem definition
