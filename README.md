@@ -1,6 +1,22 @@
 # Unit 1: A classic game 
 ![](game.gif)
 
+# Code
+## For Player To Input Their Name.
+
+'''py
+name0 = input('Please enter the player name:')
+#User input their name
+confirmation = 0
+name1 = name0
+while confirmation != name0:
+    name0 = name1
+    confirmation = input('Please confirm your name:')
+    #User confirm their name
+    if confirmation !=name1:
+    #If the confirmation is not the same as user's first inputted name the user need to input again until the name is the same for 2 times
+        name1 = confirmation
+'''
 # Criteria A: Planning
 
 ## Problem definition
